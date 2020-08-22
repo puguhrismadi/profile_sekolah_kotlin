@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_sekolah">
+
+    <fragment
+        android:id="@+id/navigation_galery"
+        android:name="com.puguh.profilstarbhak.fragment.GaleryFragment"
+        android:label="@string/title_nav_galery"
+        tools:layout="@layout/fragment_galery" />
+
+    <fragment
+        android:id="@+id/navigation_prestasi"
+        android:name="com.puguh.profilstarbhak.fragment.PrestasiFragment"
+        android:label="@string/title_nav_prestasi"
+        tools:layout="@layout/fragment_prestasi" />
+
+    <fragment
+        android:id="@+id/navigation_sekolah"
+        android:name="com.puguh.profilstarbhak.fragment.SekolahFragment"
+        android:label="@string/title_nav_sekolah"
+        tools:layout="@layout/fragment_sekolah" />
+    <fragment
+        android:id="@+id/navigation_guru"
+        android:name="com.puguh.profilstarbhak.fragment.GuruFragment"
+        android:label="@string/nav_title_guru"
+        tools:layout="@layout/fragment_guru" />
+    <fragment
+        android:id="@+id/navigation_ekskul"
+        android:name="com.puguh.profilstarbhak.fragment.EskulFragment"
+        android:label="@string/nav_title_ekskul"
+        tools:layout="@layout/fragment_eskul" />
+</navigation>

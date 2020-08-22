@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_sekolah"
+        android:icon="@drawable/sekolah"
+        android:title="@string/nav_title_sekolah" />
+
+    <item
+        android:id="@+id/navigation_galery"
+        android:icon="@drawable/galery"
+        android:title="@string/nav_title_galery" />
+    <item
+        android:id="@+id/navigation_prestasi"
+        android:icon="@drawable/prestasi"
+        android:title="@string/nav_title_prestasi" />
+
+    <item
+        android:id="@+id/navigation_guru"
+        android:icon="@drawable/guru"
+        android:title="@string/nav_title_guru" />
+    <item
+        android:id="@+id/navigation_ekskul"
+        android:icon="@drawable/talent"
+        android:title="@string/nav_title_ekskul" />
+
+
+</menu>

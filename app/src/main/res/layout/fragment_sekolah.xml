@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundfile"
+    tools:context=".fragment.SekolahFragment">
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       >
+
+       <androidx.appcompat.widget.AppCompatImageView
+           android:layout_width="match_parent"
+           android:src="@drawable/bgmaskot"
+           android:scaleType="centerCrop"
+           android:background="@android:color/holo_blue_dark"
+           android:layout_height="180dp"/>
+       <TextView
+           android:id="@+id/nama_sekolah"
+           android:layout_width="match_parent"
+           android:text="@string/nama_sekolah"
+           android:textAlignment="center"
+           android:textColor="@android:color/white"
+           android:textSize="24dp"
+           android:textStyle="bold"
+           android:layout_marginTop="120dp"
+           android:layout_height="wrap_content"/>
+       <androidx.cardview.widget.CardView
+           android:layout_width="match_parent"
+           android:layout_height="600dp"
+           android:layout_marginTop="160dp"
+           app:cardCornerRadius="20dp"
+           android:layout_marginStart="20dp"
+           android:layout_marginEnd="20dp"
+           >
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_margin="20dp">
+
+               <TextView
+                   android:id="@+id/npsn"
+
+                   android:layout_width="match_parent"
+                   android:text="@string/npsn"
+                   android:textSize="16dp"
+                   android:layout_height="wrap_content"/>
+
+               <TextView
+                   android:id="@+id/title_judul_akdreditasi"
+                   android:layout_below="@+id/npsn"
+                   android:layout_width="match_parent"
+                   android:textStyle="bold"
+                   android:text="@string/sub_status_akreditasi"
+
+                   android:textSize="16dp"
+                   android:layout_height="wrap_content"/>
+               <TextView
+                   android:id="@+id/akreditasi_title"
+                   android:layout_width="match_parent"
+                   android:layout_below="@+id/title_judul_akdreditasi"
+                   android:text="@string/nomor_akreditasi"
+                   android:textStyle="bold"
+
+                   android:textSize="12dp"
+                   android:layout_height="wrap_content"/>
+               <TextView
+                   android:id="@+id/title_visi"
+                   android:layout_marginTop="10dp"
+                   android:textStyle="bold"
+                   android:text="@string/visi_title"
+                   android:layout_below="@+id/akreditasi_title"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"/>
+               <TextView
+                   android:id="@+id/content_visi"
+                   android:layout_below="@+id/title_visi"
+                   android:text="@string/content_visi"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"/>
+
+           </RelativeLayout>
+           <RelativeLayout
+               android:id="@+id/wadah_kedua"
+               android:layout_marginTop="220dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+               <ImageView
+                   android:id="@+id/image_sparator"
+                   android:background="@android:color/background_dark"
+                   android:layout_width="match_parent"
+                   android:src="@drawable/imageseparator"
+                   android:layout_height="170dp"/>
+               <TextView
+                   android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                   android:layout_marginRight="@dimen/activity_horizontal_margin"
+                   android:id="@+id/title_alamat"
+                   android:layout_marginTop="20dp"
+                   android:text="Alamat"
+                   android:textStyle="bold"
+                   android:layout_below="@+id/image_sparator"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"/>
+
+               <ImageView
+                   android:id="@+id/fblogo"
+                   android:layout_width="32dp"
+                   android:layout_height="32dp"
+                   android:layout_marginStart="10dp"
+                   android:layout_below="@+id/title_alamat"
+                   android:layout_marginTop="0dp"
+
+                   android:src="@drawable/googlemap" />
+               <TextView
+                   android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                   android:layout_marginRight="@dimen/activity_horizontal_margin"
+                   android:layout_alignLeft="@+id/phone_logo"
+
+                   android:layout_marginStart="41dp"
+                   android:id="@+id/detail_alamat"
+                   android:text="@string/detail_alamat"
+                   android:layout_below="@+id/title_alamat"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"/>
+
+               <ImageView
+                   android:id="@+id/phone_logo"
+                   android:layout_width="32dp"
+                   android:layout_height="32dp"
+                   android:layout_marginStart="10dp"
+                   android:layout_below="@+id/fblogo"
+                   android:layout_marginTop="0dp"
+
+                   android:src="@drawable/ic_baseline_phone_24" />
+
+               <TextView
+                   android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                   android:layout_marginRight="@dimen/activity_horizontal_margin"
+                   android:layout_alignLeft="@+id/fblogo"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginStart="41dp"
+                   android:id="@+id/detail_phone"
+                   android:text="(021)8744810"
+                   android:layout_below="@+id/detail_alamat"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"/>
+               <ImageView
+                   android:id="@+id/logo_web"
+                   android:layout_width="32dp"
+                   android:layout_height="32dp"
+                   android:layout_marginStart="10dp"
+                   android:layout_below="@+id/phone_logo"
+                   android:layout_marginTop="0dp"
+
+                   android:src="@drawable/home" />
+
+               <TextView
+                   android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                   android:layout_marginRight="@dimen/activity_horizontal_margin"
+                   android:layout_alignLeft="@+id/fblogo"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginStart="41dp"
+                   android:id="@+id/alamat_web"
+                   android:text="@string/web_sekolah"
+                   android:layout_below="@+id/detail_phone"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"/>
+
+
+           </RelativeLayout>
+
+
+       </androidx.cardview.widget.CardView>
+   </RelativeLayout>
+</ScrollView>

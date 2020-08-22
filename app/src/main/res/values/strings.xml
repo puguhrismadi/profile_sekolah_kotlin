@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Starbhak</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_nav_galery">Galery</string>
+    <string name="title_nav_prestasi">Prestasi</string>
+    <string name="title_nav_sekolah">Sekolah</string>
+    <string name="nav_title_guru">Guru</string>
+    <string name="nav_title_ekskul">Ekskul</string>
+    <string name="nav_title_sekolah">Sekolah</string>
+    <string name="nav_title_galery">Galery</string>
+    <string name="nav_title_prestasi">Prestasi</string>
+    <string name="nama_sekolah">SMK Taruna Bhakti Depok</string>
+    <string name="npsn">NPSN : 20229232</string>
+    <string name="title_npsn">NPSN (Nomor Pokok Sekolah Nasional)</string>
+    <string name="nomor_akreditasi">A / Nomor : 02.00/230/BAP-SM/XII/2018</string>
+    <string name="sub_status_akreditasi">Status Akreditasi</string>
+    <string name="visi_title">VISI</string>
+    <string name="content_visi">Menghasilkan Lulusan Yang Kompeten Dalam Ilmu Pengetahuan dan Teknologi (IPTEK) dan Iman Taqwa (IMTAQ) Serta Mampu Bersaing Pada Tingkat Nasional dan Global</string>
+    <string name="detail_alamat">Jl.Pekapuran Kel.curug Kec.Cimanggis Kota Depok , Jawa Barat</string>
+    <string name="title_kepala_sekolah">Kepala Sekolah</string>
+    <string name="web_sekolah">www.smktarunabhakti.net</string>
+
+</resources>
